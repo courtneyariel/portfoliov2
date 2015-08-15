@@ -1,0 +1,220 @@
+.about {
+	margin-bottom: 0px;
+}
+
+
+.about h1 {
+	font-weight: 400;
+    letter-spacing: 4px;
+    font-size: 24px;
+}
+
+.about h2 {
+	margin-bottom: 20px;
+}
+
+.overview ul li {
+	display: inline-block;
+	width: 20%;
+	padding-right: 4.5%;
+	padding-top: 60px;
+
+}
+
+
+.what {
+	padding: 20px 0px;
+	margin-bottom: 50px;
+		font-size: 18px;
+	letter-spacing: 1px;
+	line-height: 1.7em;
+
+
+}
+
+section .what div {
+
+	width: 22%;
+	display: inline-block;
+	vertical-align: top;
+	
+	
+
+}
+
+.pr {	
+	padding-right: 3.3%;
+}
+
+.research img {
+	width: 50%;
+	display: block;
+	margin: 0 auto;
+	
+}
+
+.margintop {
+	
+}
+
+.margintop h1{
+	margin-top: 50px;
+}
+
+.af ul li {
+	display: inline;
+	width: 48%;
+	padding: 4.5%;
+}
+
+
+.af ul li img {
+	width: 40%;
+	padding-bottom: 5%;
+}
+
+.personas ul li {
+	display: inline-block;
+	width: 25%;
+	padding: 4%;
+}
+
+.personas ul li img {
+	width: 100%;
+	padding-bottom: 30px;
+}
+
+.mweb ul li {
+	line-height: 35px;
+
+}
+
+.wireframe img{
+	width: 100%;
+	margin: 0 auto;
+	
+}
+
+.mweb img {
+	margin: 0 auto;
+	display: block;
+	width: 60%;
+}
+.mweb ul li {
+	margin: 0 auto;
+	padding: 0;
+	    font-size: 16px;
+    letter-spacing: 0.5px;
+}
+
+
+
+.styletile {
+	float: left;
+	width: 46%;
+	padding: 2%;
+}
+
+.styletile img {
+	width: 45%;
+	
+	margin: 0 auto;
+	padding-bottom: 70px;
+}
+
+.ui {
+	margin-bottom: 70px;
+}
+
+.ui img {
+	width: 100%;
+
+}
+
+
+@media screen and (max-width: 1024px){
+
+
+section .what div {
+
+	width: 21.5%;
+	display: inline-block;
+	vertical-align: top;
+	
+	
+
+}
+
+.pr {	
+	padding-right: 3.3%;
+}
+
+.personas ul li {
+	display: inline-block;
+	width: 24%;
+	padding: 4%;
+}
+}
+
+
+@media screen and (max-width: 500px){
+
+	.research img {
+	width: 100%;
+	
+}
+
+
+.personas ul li:nth-child(1) {
+	display: inline-block;
+	width: 85%;
+	padding: 4% 5%;
+}
+
+.personas ul li:nth-child(2) {
+	display: inline-block;
+	width: 85%;
+	padding: 4% 5%;
+}
+
+.personas ul li:nth-child(3) {
+	display: inline-block;
+	width: 85%;
+	padding-right:5%;
+	padding-left:5%;
+	padding-top:4%;
+	padding-bottom: 0%;
+}
+.personas ul li img {
+	width: 100%;
+	padding-bottom: 30px;
+	margin: 0 auto;
+}
+
+.mweb img {
+	width: 95%;
+}
+
+.styletile {
+	float: left;
+	width: 100%;
+	padding: 2%;
+}
+
+.styletile img:nth-child(1) {
+	width: 90%;
+	
+	margin: 0 auto;
+	padding-bottom: 20px;
+}
+
+.styletile img:nth-child(2) {
+	width: 90%;
+	
+	margin: 0 auto;
+	padding-bottom: 70px;
+}
+
+
+
+	}
